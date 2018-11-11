@@ -167,11 +167,13 @@ h3 {
     justify-content: flex-start;
 }
 
-.written-info {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    font-size: 1.2em;
+.work-item .pic img {
+    width: 256px;
+    height: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    align-self: flex-start;
 }
 
 .pic {
@@ -188,23 +190,19 @@ h3 {
     color: #f6f4f4;
 }
 
-.work-item .pic img {
-    width: 256px;
-    height: 256px;
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-left: 1em;
-    align-self: flex-start;
-}
-
-
 .special {
     margin-left: -1px; 
 }
 
+.written-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 1.2em;
+}
+
 .written-info .whitebox {
-    padding: 0.5em;
-    
+    padding: 0.5em;   
 }
 
 .written-info .getit {
@@ -241,7 +239,6 @@ hr {
     color: #f6f4f4;
 }
 
-
 /* contact section */
 
 #contact {
@@ -269,5 +266,3 @@ hr {
 .email a {
     color: inherit;
 }
-
-
